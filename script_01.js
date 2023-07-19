@@ -34,8 +34,15 @@
 // }
 
 // Inkrement (var. Schrittweite)
-for (let i = 50; i <= 100; i+= 2) {
-    output(i);   
+// for (let i = 50; i <= 100; i+= 2) {
+//     output(i);   
+// }
+
+/* 02b. For-Schleife für Array-Index (Iteration)*/
+let arr = ["Ich","bin","die","coole","Maxine","Mützerich"];
+for (let i = 0; i < arr.length; i++) {
+    output(i);  // innerer Index (Schleifen-Index) 
+    output(arr[i]) // Array-Index --> Mapping
 }
 
 
@@ -84,6 +91,7 @@ function getSentenceArr(arr) {
     return str;
 }
 
+/*** 01b. Funktionalität mit Array 2  */
 
 
 
